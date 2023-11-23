@@ -1,0 +1,6 @@
+[build]
+  base = "server/"
+  publish = "public/"  # Adjust this based on where your frontend files are located
+  functions = "netlify/functions/"
+  command = "npm install && npm run build"  # You might not need this if there's no frontend build step
+
